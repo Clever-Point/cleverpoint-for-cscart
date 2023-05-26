@@ -1,0 +1,1 @@
+{style src="addons/slx_clever_point/style.css"}

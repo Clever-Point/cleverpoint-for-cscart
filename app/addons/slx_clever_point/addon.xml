@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>slx_clever_point</id>
+	<name>Cleverpoint</name>
+	<description>Cleverpoint pick up points</description>    
+    <version>23.05.20</version>
+    <priority>1200</priority>
+    <position>0</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>el</default_language>
+    <supplier>Cleverpoint</supplier>
+    <supplier_link>https://cleverpoint.gr/</supplier_link>
+    <authors>
+    	<author>
+            <name>weblive.gr</name>
+            <email>info@weblive.gr</email>
+            <url>https://weblive.gr</url>
+        </author>
+        <author>
+            <name>Salix.gr</name>
+            <email>panos@salix.gr</email>
+            <url>https://salix.me</url>
+        </author>
+    </authors> 
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="header1">
+                        <type>header</type>
+                    </item>
+                    <item id="mode">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="platform"></item>
+                            <item id="test"></item>
+                        </variants>
+                    </item>
+                    <item id="api_key">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="header2">
+                        <type>header</type>
+                    </item>
+                    <item id="map_provider">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="arcgis"></item>
+                            <item id="google"></item>
+                        </variants>
+                    </item>
+                    <item id="mapKey">
+                        <type>input</type>
+                    </item>
+                    <item id="header4">
+                        <type>header</type>
+                    </item>
+                    <item id="shipping_methods">
+                        <type>multiple checkboxes</type>
+                    </item>
+                    <item id="header5">
+                        <type>header</type>
+                    </item>
+                    <item id="cost_to">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="customer"></item>
+                            <item id="ours"></item>
+                        </variants>
+                    </item>
+                </items>
+            </section>
+            <section id="appearance">
+                <items>
+                    <item id="header3">
+                        <type>header</type>
+                    </item>
+                    <item id="map_display">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="embedded"></item>
+                            <item id="modal"></item>
+                        </variants>
+                        <default_value>embedded</default_value>
+                    </item>
+                    <item id="map_height">
+                        <type>input</type>
+                        <default_value>500</default_value>
+                    </item>
+                    <item id="header">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="singleSelect">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="addressBar">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="pointList">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="pointInfoType">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="docked"></item>
+                            <item id="dockedSmall"></item>
+                            <item id="floating"></item>
+                        </variants>
+                    </item>
+                    <item id="defaultAddress">
+                        <type>input</type>
+                    </item>
+                    <item id="defaultCoordinates">
+                        <type>input</type>
+                    </item>
+                    <item id="defaultCleverPoint">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+            <section id="handling">
+                <items>
+                    <item id="order_handling">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="int"></item>
+                            <item id="out"></item>
+                        </variants>
+                    </item>
+                    <item id="info_handling">
+                        <type>info</type>
+                        <handler>slx_clever_point_settings_info_cu</handler>
+                    </item>
+                    <item id="cp_status">
+                        <type>multiple checkboxes</type>
+                        <default_value>O</default_value>
+                    </item>
+                    <item id="cod_payment_ids">
+                        <type>multiple checkboxes</type>
+                    </item>
+                </items>
+            </section>
+            <section id="addr_customer">
+                <items>
+                    <item id="info_cu">
+                        <type>info</type>
+                        <handler>slx_clever_point_settings_info_cu</handler>
+                    </item>
+                    <item id="cu_firstname">
+                        <name>First Name</name>
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cu_lastname">
+                        <name>Last Name</name>
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cu_address1">
+                        <name>Address 1</name>
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cu_address2">
+                        <name>Address 2</name>
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cu_city">
+                        <name>City</name>
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cu_zipcode">
+                        <name>Zipcode</name>
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cu_country">
+                        <name>country</name>
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cu_tel">
+                        <name>Contact number</name>
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cu_mobile">
+                        <name>Mobile number</name>
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">ALTER TABLE ?:orders ADD COLUMN pickup_cost DECIMAL(12,2) DEFAULT 0 NULL</item>
+        <item for="install">CREATE TABLE ?:order_cp_shipments (
+            `id` INT NOT NULL AUTO_INCREMENT,
+            `order_id` INT DEFAULT NULL,
+            `voucher` VARCHAR(60) DEFAULT NULL,
+            `response` MEDIUMTEXT,
+            PRIMARY KEY (`id`)
+            ) ENGINE=MYISAM DEFAULT CHARSET=utf8mb3
+        </item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP COLUMN pickup_cost</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:order_cp_shipments</item>
+    </queries>
+</addon>

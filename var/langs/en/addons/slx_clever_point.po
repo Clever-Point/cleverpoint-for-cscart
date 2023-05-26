@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::slx_clever_point"
+msgid "Cleverpoint"
+msgstr "Cleverpoint"
+
+msgctxt "Addons::description::slx_clever_point"
+msgid "Cleverpoint integration"
+msgstr "Cleverpoint integration"
+
+msgctxt "SettingsSections::slx_clever_point::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::slx_clever_point::appearance"
+msgid "Appearance"
+msgstr "Appearance"
+
+msgctxt "SettingsSections::slx_clever_point::handling"
+msgid "Orders"
+msgstr "Orders"
+
+msgctxt "SettingsSections::slx_clever_point::addr_customer"
+msgid "Customer fields"
+msgstr "Customer fields"
+
+msgctxt "SettingsOptions::slx_clever_point::header1"
+msgid "Cleverpoint API"
+msgstr "Cleverpoint API"
+
+msgctxt "SettingsOptions::slx_clever_point::header2"
+msgid "Map API"
+msgstr "Map API"
+
+msgctxt "SettingsOptions::slx_clever_point::header3"
+msgid "Appearance"
+msgstr "Appearance"
+
+msgctxt "SettingsOptions::slx_clever_point::header4"
+msgid "Shipping methods"
+msgstr "Shipping methods"
+
+msgctxt "SettingsOptions::slx_clever_point::header5"
+msgid "Cost"
+msgstr "Cost"
+
+msgctxt "SettingsOptions::slx_clever_point::mode"
+msgid "Mode"
+msgstr "Mode"
+
+msgctxt "SettingsVariants::slx_clever_point::mode::platform"
+msgid "Live"
+msgstr "Live"
+
+msgctxt "SettingsOptions::slx_clever_point::map_display"
+msgid "Map type"
+msgstr "Map type"
+
+msgctxt "SettingsVariants::slx_clever_point::map_display::embedded"
+msgid "Embedded"
+msgstr "Embedded"
+
+msgctxt "SettingsVariants::slx_clever_point::map_display::modal"
+msgid "Popup"
+msgstr "Popup"
+
+msgctxt "SettingsVariants::slx_clever_point::mode::test"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "SettingsOptions::slx_clever_point::api_key"
+msgid "Api key"
+msgstr "Api key"
+
+msgctxt "SettingsOptions::slx_clever_point::map_provider"
+msgid "Map provider"
+msgstr "Map provider"
+
+msgctxt "SettingsVariants::slx_clever_point::map_provider::arcgis"
+msgid "Arcgis"
+msgstr "Arcgis"
+
+msgctxt "SettingsVariants::slx_clever_point::map_provider::google"
+msgid "Google"
+msgstr "Google"
+
+msgctxt "SettingsOptions::slx_clever_point::mapKey"
+msgid "Map key"
+msgstr "Map key"
+
+msgctxt "SettingsOptions::slx_clever_point::map_height"
+msgid "Map height"
+msgstr "Map height"
+
+msgctxt "SettingsOptions::slx_clever_point::header"
+msgid "header"
+msgstr "Header"
+
+msgctxt "SettingsOptions::slx_clever_point::singleSelect"
+msgid "singleSelect"
+msgstr "SingleSelect"
+
+msgctxt "SettingsOptions::slx_clever_point::addressBar"
+msgid "addressBar"
+msgstr "Address Bar"
+
+msgctxt "SettingsOptions::slx_clever_point::pointList"
+msgid "pointList"
+msgstr "pointList"
+
+msgctxt "SettingsOptions::slx_clever_point::pointInfoType"
+msgid "pointInfoType"
+msgstr "pointInfoType"
+
+msgctxt "SettingsVariants::slx_clever_point::pointInfoType::docked"
+msgid "Docked"
+msgstr "Docked"
+
+msgctxt "SettingsVariants::slx_clever_point::pointInfoType::dockedSmall"
+msgid "Docked small"
+msgstr "Docked small"
+
+msgctxt "SettingsVariants::slx_clever_point::pointInfoType::floating"
+msgid "Floating"
+msgstr "Floating"
+
+msgctxt "SettingsOptions::slx_clever_point::defaultAddress"
+msgid "Default Address"
+msgstr "Default Address"
+
+msgctxt "SettingsOptions::slx_clever_point::defaultCoordinates"
+msgid "Default Coordinates"
+msgstr "Default Coordinates"
+
+msgctxt "SettingsOptions::slx_clever_point::defaultCleverPoint"
+msgid "Default CleverPoint point"
+msgstr "Default CleverPoint point"
+
+msgctxt "SettingsOptions::slx_clever_point::shipping_methods"
+msgid "Shipping methods"
+msgstr "Shipping methods"
+
+msgctxt "SettingsTooltips::slx_clever_point::shipping_methods"
+msgid "Shipping methods that will work with Cleverpoint."
+msgstr "Shipping methods that will work with Cleverpoint."
+
+msgctxt "SettingsOptions::slx_clever_point::cost_to"
+msgid "The cost of Cleverpoint"
+msgstr "The cost of Cleverpoint"
+
+msgctxt "SettingsTooltips::slx_clever_point::cost_to"
+msgid "Who bears the cost of Clevepoint. If you select the customer, then it will appear at the checkout as a separate charge."
+msgstr "Who bears the cost of Clevepoint. If you select the customer, then it will appear at the checkout as a separate charge."
+
+msgctxt "SettingsVariants::slx_clever_point::cost_to::customer"
+msgid "Surcharge to the customer"
+msgstr "Surcharge to the customer"
+
+msgctxt "SettingsVariants::slx_clever_point::cost_to::ours"
+msgid "Free of charge to the customer"
+msgstr "Free of charge to the customer"
+
+msgctxt "SettingsOptions::slx_clever_point::order_handling"
+msgid "Shipment management"
+msgstr "Shipment management"
+
+msgctxt "SettingsTooltips::slx_clever_point::order_handling"
+msgid "Order handling"
+msgstr "Order handling"
+
+msgctxt "SettingsVariants::slx_clever_point::order_handling::int"
+msgid "Internal"
+msgstr "Internal"
+
+msgctxt "SettingsVariants::slx_clever_point::order_handling::out"
+msgid "External"
+msgstr "External"
+
+msgctxt "SettingsOptions::slx_clever_point::cp_status"
+msgid "cp_status"
+msgstr "cp_status"
+
+msgctxt "SettingsTooltips::slx_clever_point::cp_status"
+msgid "cp_status"
+msgstr "cp_status"
+
+msgctxt "SettingsOptions::slx_clever_point::cod_payment_ids"
+msgid "COD payments"
+msgstr "COD payments"
+
+msgctxt "SettingsTooltips::slx_clever_point::cod_payment_ids"
+msgid "COD payments"
+msgstr "COD payments"
+
+msgctxt "SettingsTooltips::slx_clever_point::mode"
+msgid "Test or productive environment."
+msgstr "Test or productive environment."
+
+msgctxt "SettingsTooltips::slx_clever_point::api_key"
+msgid "It is provided by Cleverpoint"
+msgstr "It is provided by Cleverpoint"
+
+msgctxt "SettingsTooltips::slx_clever_point::map_provider"
+msgid "Map provider"
+msgstr "Map provider"
+
+msgctxt "SettingsTooltips::slx_clever_point::mapKey"
+msgid "It is provided by the Map Provider"
+msgstr "It is provided by the Map Provider"
+
+msgctxt "SettingsTooltips::slx_clever_point::map_height"
+msgid "Height of the map"
+msgstr "Height of the map"
+
+msgctxt "SettingsTooltips::slx_clever_point::header"
+msgid "Displays the «Notification bar» on Cleverpoint Map."
+msgstr "Displays the «Notification bar» on Cleverpoint Map."
+
+msgctxt "SettingsTooltips::slx_clever_point::singleSelect"
+msgid "Changes the way the click selects the Clever Point and runs the «onselect» callback function, from choosing the point on the map or the Clevepoint list. If set to true the Clever Point is selected without the need to click the «Επίλεξε το!» (Select this) button."
+msgstr "Changes the way the click selects the Clever Point and runs the «onselect» callback function, from choosing the point on the map or the Cleverpoint list. If set to true the Clever Point is selected without the need to click the «Επίλεξε το!» (Select this) button."
+
+msgctxt "SettingsTooltips::slx_clever_point::addressBar"
+msgid "Displays or hides the address search bar."
+msgstr "Displays or hides the address search bar."
+
+msgctxt "SettingsTooltips::slx_clever_point::pointList"
+msgid "Displays or hides the Cleverpoint list."
+msgstr "Displays or hides the Cleverpoint list."
+
+msgctxt "SettingsTooltips::slx_clever_point::pointInfoType"
+msgid "Changes the Cleverpoint info panel."
+msgstr "Changes the Cleverpoint info panel."
+
+msgctxt "SettingsTooltips::slx_clever_point::defaultAddress"
+msgid "(Optional) In case you want to set an initial map position based on an address. You need to provide a valid address or at least a part of it, post code, area, etc."
+msgstr "(Optional) In case you want to set an initial map position based on an address. You need to provide a valid address or at least a part of it, post code, area, etc."
+
+msgctxt "SettingsTooltips::slx_clever_point::defaultCoordinates"
+msgid "(Optional) In case you want to set an initial map position based on map coordinates."
+msgstr "(Optional) In case you want to set an initial map position based on map coordinates."
+
+msgctxt "SettingsTooltips::slx_clever_point::defaultCleverPoint"
+msgid "(Optional) In case you want to set an initial map position based on a Clever Point (you need to provide the Station ID in form of UUID)."
+msgstr "(Optional) In case you want to set an initial map position based on a Clever Point (you need to provide the Station ID in form of UUID)."
+
+msgctxt "SettingsOptions::slx_clever_point::cu_firstname"
+msgid "Όνομα"
+msgstr "Όνομα"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_firstname"
+msgid "cu_firstname"
+msgstr "cu_firstname"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_lastname"
+msgid "cu_lastname"
+msgstr "cu_lastname"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_lastname"
+msgid "cu_lastname"
+msgstr "cu_lastname"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_address1"
+msgid "cu_address1"
+msgstr "cu_address1"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_address1"
+msgid "cu_address1"
+msgstr "cu_address1"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_address2"
+msgid "Area"
+msgstr "Area"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_address2"
+msgid "Area"
+msgstr "Area"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_city"
+msgid "city"
+msgstr "city"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_city"
+msgid "city"
+msgstr "city"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_zipcode"
+msgid "zipcode"
+msgstr "zipcode"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_zipcode"
+msgid "zipcode"
+msgstr "zipcode"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_country"
+msgid "country"
+msgstr "country"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_country"
+msgid "country"
+msgstr "country"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_tel"
+msgid "tel"
+msgstr "tel"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_tel"
+msgid "tel"
+msgstr "tel"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_mobile"
+msgid "mobile"
+msgstr "mobile"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_mobile"
+msgid "mobile"
+msgstr "mobile"
+
+msgctxt "Languages::slx_clever_point.settings_info_cu"
+msgid "slx_clever_point.settings_info_cu"
+msgstr "These fields make sense if you have chosen to manage shipments internally."
+
+msgctxt "Languages::slx_clever_point.clever_point_cost"
+msgid "slx_clever_point.clever_point_cost"
+msgstr "Cleverpoint cost"
+
+msgctxt "Languages::slx_clever_point.clever_point"
+msgid "slx_clever_point.clever_point"
+msgstr "Selected Pickup Point"
+
+msgctxt "Languages::slx_clever_point.address"
+msgid "slx_clever_point.address"
+msgstr "Address"
+
+msgctxt "Languages::slx_clever_point.phone"
+msgid "slx_clever_point.phone"
+msgstr "Phones"
+
+msgctxt "Languages::slx_clever_point.work_hours"
+msgid "slx_clever_point.work_hours"
+msgstr "Working hours"
+
+msgctxt "Languages::slx_clever_point.what_is_clever_point_button"
+msgid "slx_clever_point.what_is_clever_point_button"
+msgstr "What is Cleverpoint;"
+
+msgctxt "Languages::slx_clever_point.shipment_created_successfully"
+msgid "slx_clever_point.shipment_created_successfully"
+msgstr "Shipment created successfully"
+
+msgctxt "Languages::slx_clever_point.no_voucher_created"
+msgid "slx_clever_point.no_voucher_created"
+msgstr "No voucher created"
+
+msgctxt "Languages::slx_clever_point.voucher_canceled"
+msgid "slx_clever_point.voucher_canceled"
+msgstr "Voucher Canceled"
+
+msgctxt "Languages::slx_clever_point.create_awb"
+msgid "slx_clever_point.create_awb"
+msgstr "Create"
+
+msgctxt "Languages::slx_clever_point.parameters"
+msgid "slx_clever_point.parameters"
+msgstr "Parameters"
+
+msgctxt "Languages::slx_clever_point.num_of_parcels"
+msgid "slx_clever_point.num_of_parcels"
+msgstr "Number of parcels"
+
+msgctxt "Languages::slx_clever_point.package_weight"
+msgid "slx_clever_point.package_weight"
+msgstr "Package weight"
+
+msgctxt "Languages::slx_clever_point.cod_amount"
+msgid "slx_clever_point.cod_amount"
+msgstr "Cod amount"
+
+msgctxt "Languages::slx_clever_point.courier_voucher"
+msgid "slx_clever_point.courier_voucher"
+msgstr "Courier voucher"
+
+msgctxt "Languages::slx_clever_point.courier"
+msgid "slx_clever_point.courier"
+msgstr "Courier"
+
+msgctxt "Languages::slx_clever_point.awb_no"
+msgid "slx_clever_point.awb_no"
+msgstr "Voucher"
+
+msgctxt "Languages::slx_clever_point.created_at"
+msgid "slx_clever_point.created_at"
+msgstr "Created"
+
+msgctxt "Languages::slx_clever_point.shipments"
+msgid "slx_clever_point.shipments"
+msgstr "Shipments"
+
+msgctxt "Languages::slx_clever_point.cancel"
+msgid "slx_clever_point.cancel"
+msgstr "Cancel"
+
+msgctxt "Languages::slx_clever_point.get_voucher"
+msgid "slx_clever_point.get_voucher"
+msgstr "Get voucher"
+
+msgctxt "Languages::slx_clever_point.current_status"
+msgid "slx_clever_point.current_status"
+msgstr "Current status"
+
+msgctxt "Languages::slx_clever_point.destination"
+msgid "slx_clever_point.destination"
+msgstr "Destination"
+
+msgctxt "Languages::slx_clever_point.origin"
+msgid "slx_clever_point.origin"
+msgstr "Origin"
+
+msgctxt "Languages::slx_clever_point.tracking_order"
+msgid "slx_clever_point.tracking_order"
+msgstr "Tracking order"
+
+msgctxt "Languages::slx_clever_point.no_tracking_information"
+msgid "slx_clever_point.no_tracking_information"
+msgstr "No tracking information"
+
+msgctxt "Languages::slx_clever_point.data_by_clever_point"
+msgid "slx_clever_point.data_by_clever_point"
+msgstr "Data provided by Cleverpoint"
+
+msgctxt "Languages::slx_clever_point.track"
+msgid "slx_clever_point.track"
+msgstr "Track"
+
+msgctxt "Languages::slx_clever_point.get_manifest"
+msgid "slx_clever_point.get_manifest"
+msgstr "Cleverpoint Day List"
+
+msgctxt "Languages::slx_clever_point.accept_cod"
+msgid "slx_clever_point.accept_cod"
+msgstr "Accept COD"
+
+msgctxt "Languages::slx_clever_point.point_does_not_accept_cod"
+msgid "slx_clever_point.point_does_not_accept_cod"
+msgstr "This CleverPoint does not accept COD. If you want to COD please select another pickup point."
+
+
+msgctxt "SettingsOptions::slx_clever_point::map_display"
+msgid "Τρόπος ενσωμάτωσης χάρτη"
+msgstr "Τρόπος ενσωμάτωσης χάρτη"
+
+msgctxt "SettingsVariants::slx_clever_point::map_display::embedded"
+msgid "Embedded"
+msgstr "Embedded"
+
+msgctxt "SettingsVariants::slx_clever_point::map_display::modal"
+msgid "Modal"
+msgstr "Modal"
+
+msgctxt "SettingsTooltips::slx_clever_point::map_display"
+msgid "Επιλογή για τον τρόπο με τον οποίον θα εμφανίζεται ο χάρτης. Οι επιλογές είναι είτε Embedded View είτε Modal View. Προτείνεται Embedded."
+msgstr "Επιλογή για τον τρόπο με τον οποίον θα εμφανίζεται ο χάρτης. Οι επιλογές είναι είτε Embedded View είτε Modal View. Προτείνεται Embedded."
+
+msgctxt "Languages::slx_clever_point.select_cleverpoint"
+msgid "slx_clever_point.select_cleverpoint"
+msgstr "Select Clever point"
+
+msgctxt "Languages::slx_clever_point.accept_cod"
+msgid "slx_clever_point.accept_cod"
+msgstr "Supports Cash On Delivery"
+
+msgctxt "Languages::slx_clever_point.point_does_not_accept_cod"
+msgid "slx_clever_point.point_does_not_accept_cod"
+msgstr "Selected point doesn't accept COD, if you want to pay with COD select a different point."
+
+msgctxt "Languages::slx_clever_point.select_cleverpoint"
+msgid "slx_clever_point.select_cleverpoint"
+msgstr "Select Cleverpoint on map"

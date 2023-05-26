@@ -1,0 +1,453 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+
+msgctxt "Addons::name::slx_clever_point"
+msgid "Cleverpoint"
+msgstr "Cleverpoint"
+
+msgctxt "Addons::description::slx_clever_point"
+msgid "Ενσωμάτωση Cleverpoint"
+msgstr "Ενσωμάτωση Cleverpoint"
+
+msgctxt "SettingsSections::slx_clever_point::general"
+msgid "Γενικά"
+msgstr "Γενικά"
+
+msgctxt "SettingsSections::slx_clever_point::appearance"
+msgid "Εμφάνιση"
+msgstr "Εμφάνιση"
+
+msgctxt "SettingsSections::slx_clever_point::handling"
+msgid "Παραγγελίες"
+msgstr "Παραγγελίες"
+
+msgctxt "SettingsSections::slx_clever_point::addr_customer"
+msgid "Πεδία παραλήπτη"
+msgstr "Πεδία παραλήπτη"
+
+msgctxt "SettingsOptions::slx_clever_point::header1"
+msgid "Cleverpoint API"
+msgstr "Cleverpoint API"
+
+msgctxt "SettingsOptions::slx_clever_point::header2"
+msgid "API χάρτη"
+msgstr "API χάρτη"
+
+msgctxt "SettingsOptions::slx_clever_point::header3"
+msgid "Εμφάνιση"
+msgstr "Εμφάνιση"
+
+msgctxt "SettingsOptions::slx_clever_point::header4"
+msgid "Τρόποι αποστολής"
+msgstr "Τρόποι αποστολής"
+
+msgctxt "SettingsOptions::slx_clever_point::header5"
+msgid "Κόστος"
+msgstr "Κόστος"
+
+msgctxt "SettingsOptions::slx_clever_point::mode"
+msgid "Τρόπος λειτουργίας"
+msgstr "Τρόπος λειτουργίας"
+
+msgctxt "SettingsVariants::slx_clever_point::mode::platform"
+msgid "Παραγωγικό"
+msgstr "Παραγωγικό"
+
+msgctxt "SettingsVariants::slx_clever_point::mode::test"
+msgid "Δοκιμαστικό"
+msgstr "Δοκιμαστικό"
+
+msgctxt "SettingsOptions::slx_clever_point::api_key"
+msgid "Κλειδί Api"
+msgstr "Κλειδί Api"
+
+msgctxt "SettingsOptions::slx_clever_point::map_provider"
+msgid "Πάροχος χάρτη"
+msgstr "Πάροχος χάρτη"
+
+msgctxt "SettingsVariants::slx_clever_point::map_provider::arcgis"
+msgid "Arcgis"
+msgstr "Arcgis"
+
+msgctxt "SettingsVariants::slx_clever_point::map_provider::google"
+msgid "Google"
+msgstr "Google"
+
+msgctxt "SettingsOptions::slx_clever_point::mapKey"
+msgid "Κλειδί χάρτη"
+msgstr "Κλειδί χάρτη"
+
+msgctxt "SettingsOptions::slx_clever_point::map_display"
+msgid "Τύπος εμφάνισης Χάρτη"
+msgstr "Τύπος εμφάνισης Χάρτη"
+
+msgctxt "SettingsVariants::slx_clever_point::map_display::embedded"
+msgid "Ενσωματωμένο"
+msgstr "Ενσωματωμένο"
+
+msgctxt "SettingsVariants::slx_clever_point::map_display::modal"
+msgid "Popup"
+msgstr "Popup"
+
+msgctxt "SettingsOptions::slx_clever_point::map_height"
+msgid "Ύψος χάρτη"
+msgstr "Ύψος χάρτη"
+
+msgctxt "SettingsOptions::slx_clever_point::header"
+msgid "Επικεφαλίδα"
+msgstr "Επικεφαλίδα"
+
+msgctxt "SettingsOptions::slx_clever_point::singleSelect"
+msgid "singleSelect"
+msgstr "Eπιλογή του σημείου στο χάρτη ή στη λίστα Clever Point"
+
+msgctxt "SettingsOptions::slx_clever_point::addressBar"
+msgid "addressBar"
+msgstr "Γραμμή αναζήτησης διευθύνσεων"
+
+msgctxt "SettingsOptions::slx_clever_point::pointList"
+msgid "pointList"
+msgstr "Λίστα Cleverpoint"
+
+msgctxt "SettingsOptions::slx_clever_point::pointInfoType"
+msgid "pointInfoType"
+msgstr "Τύπος εμφάνισης"
+
+msgctxt "SettingsVariants::slx_clever_point::pointInfoType::docked"
+msgid "Ενσωματωμένο"
+msgstr "Ενσωματωμένο"
+
+msgctxt "SettingsVariants::slx_clever_point::pointInfoType::dockedSmall"
+msgid "Ενσωματωμένο μικρό"
+msgstr "Ενσωματωμένο μικρό"
+
+msgctxt "SettingsVariants::slx_clever_point::pointInfoType::floating"
+msgid "Πλωτό"
+msgstr "Πλωτό"
+
+msgctxt "SettingsOptions::slx_clever_point::defaultAddress"
+msgid "Προεπιλεγμένη διεύθυνση"
+msgstr "Προεπιλεγμένη διεύθυνση"
+
+msgctxt "SettingsOptions::slx_clever_point::defaultCoordinates"
+msgid "Προεπιλεγμένες συντεταγμένες"
+msgstr "Προεπιλεγμένες συντεταγμένες"
+
+msgctxt "SettingsOptions::slx_clever_point::defaultCleverPoint"
+msgid "Προεπιλεγμένο CleverPoint"
+msgstr "Προεπιλεγμένο CleverPoint"
+
+msgctxt "SettingsOptions::slx_clever_point::shipping_methods"
+msgid "Μέθοδοι αποστολής"
+msgstr "Μέθοδοι αποστολής"
+
+msgctxt "SettingsTooltips::slx_clever_point::shipping_methods"
+msgid "Τρόποι αποστολής που θα συνεργάζονται με το Cleverpoint."
+msgstr "Τρόποι αποστολής που θα συνεργάζονται με το Cleverpoint."
+
+msgctxt "SettingsOptions::slx_clever_point::cost_to"
+msgid "Το κόστος της Cleverpoint"
+msgstr "Το κόστος της Cleverpoint"
+
+msgctxt "SettingsTooltips::slx_clever_point::cost_to"
+msgid "Ποιον βαρύνει το κόστος της Cleverpoint. Αν επιλέξετε τον πελάτη, τότε θα εμφανιστεί στο ταμείο ως χωριστή χρέωση."
+msgstr "Ποιον βαρύνει το κόστος της Cleverpoint. Αν επιλέξετε τον πελάτη, τότε θα εμφανιστεί στο ταμείο ως χωριστή χρέωση."
+
+msgctxt "SettingsVariants::slx_clever_point::cost_to::customer"
+msgid "Επιβάρυνση στον πελάτη"
+msgstr "Επιβάρυνση στον πελάτη"
+
+msgctxt "SettingsVariants::slx_clever_point::cost_to::ours"
+msgid "Δωρεάν στον πελάτη"
+msgstr "Δωρεάν στον πελάτη"
+
+msgctxt "SettingsOptions::slx_clever_point::order_handling"
+msgid "Διαχείριση αποστολών"
+msgstr "Διαχείριση αποστολών"
+
+msgctxt "SettingsTooltips::slx_clever_point::order_handling"
+msgid "Διαχείριση παραγγελιών"
+msgstr "Διαχείριση παραγγελιών"
+
+msgctxt "SettingsVariants::slx_clever_point::order_handling::int"
+msgid "Εσωτερικά"
+msgstr "Εσωτερικά"
+
+msgctxt "SettingsVariants::slx_clever_point::order_handling::out"
+msgid "Εξωτερικά"
+msgstr "Εξωτερικά"
+
+msgctxt "SettingsOptions::slx_clever_point::cp_status"
+msgid "cp_status"
+msgstr "Επιλογή κατάστασης"
+
+msgctxt "SettingsTooltips::slx_clever_point::cp_status"
+msgid "cp_status"
+msgstr "Επιλέξτε κατάσταση παραγγελίας"
+
+msgctxt "SettingsOptions::slx_clever_point::cod_payment_ids"
+msgid "Πληρωμές με αντικαταβολή"
+msgstr "Πληρωμές με αντικαταβολή"
+
+msgctxt "SettingsTooltips::slx_clever_point::cod_payment_ids"
+msgid "Πληρωμές με αντικαταβολή"
+msgstr "Πληρωμές με αντικαταβολή"
+
+msgctxt "SettingsTooltips::slx_clever_point::mode"
+msgid "Δοκιμαστικό ή παραγωγικό περιβάλλον."
+msgstr "Δοκιμαστικό ή παραγωγικό περιβάλλον."
+
+msgctxt "SettingsTooltips::slx_clever_point::api_key"
+msgid "Μας το παρέχει η CleverPoint"
+msgstr "Μας το παρέχει η CleverPoint"
+
+msgctxt "SettingsTooltips::slx_clever_point::map_provider"
+msgid "Πάροχος χάρτη"
+msgstr "Πάροχος χάρτη"
+
+msgctxt "SettingsTooltips::slx_clever_point::mapKey"
+msgid "Μας το παρέχει ο Πάροχος χάρτη"
+msgstr "Μας το παρέχει ο Πάροχος χάρτη"
+
+msgctxt "SettingsTooltips::slx_clever_point::map_height"
+msgid "Υψος του χάρτη"
+msgstr "Υψος του χάρτη"
+
+msgctxt "SettingsTooltips::slx_clever_point::header"
+msgid "Εμφανίζει τη "Γραμμή ειδοποιήσεων" στο Cleverpoint Map."
+msgstr "Εμφανίζει τη "Γραμμή ειδοποιήσεων" στο Cleverpoint Map."
+
+msgctxt "SettingsTooltips::slx_clever_point::singleSelect"
+msgid "Αλλάζει τον τρόπο με τον οποίο το κλικ επιλέγει το Cleverpoint και εκτελεί τη συνάρτηση επανάκλησης "onselect", από την επιλογή του σημείου στο χάρτη ή στη λίστα Cleverpoint. Αν οριστεί σε true, το Clever Point επιλέγεται χωρίς να χρειάζεται να κάνετε κλικ στο "Επίλεξε το!" (Επιλέξτε αυτό)."
+msgstr "Αλλάζει τον τρόπο με τον οποίο το κλικ επιλέγει το Cleverpoint και εκτελεί τη συνάρτηση επανάκλησης "onselect", από την επιλογή του σημείου στο χάρτη ή στη λίστα Cleverpoint. Αν οριστεί σε true, το Clever Point επιλέγεται χωρίς να χρειάζεται να κάνετε κλικ στο "Επίλεξε το!" (Επιλέξτε αυτό)."
+
+msgctxt "SettingsTooltips::slx_clever_point::addressBar"
+msgid "Εμφανίζει ή αποκρύπτει τη γραμμή αναζήτησης διευθύνσεων."
+msgstr "Εμφανίζει ή αποκρύπτει τη γραμμή αναζήτησης διευθύνσεων."
+
+msgctxt "SettingsTooltips::slx_clever_point::pointList"
+msgid "Εμφανίζει ή αποκρύπτει τη λίστα Cleverpoint."
+msgstr "Εμφανίζει ή αποκρύπτει τη λίστα Cleverpoint."
+
+msgctxt "SettingsTooltips::slx_clever_point::pointInfoType"
+msgid "Αλλάζει τον πίνακα πληροφοριών του Cleverpoint."
+msgstr "Αλλάζει τον πίνακα πληροφοριών του Cleverpoint."
+
+msgctxt "SettingsTooltips::slx_clever_point::defaultAddress"
+msgid "(Προαιρετικό) Σε περίπτωση που θέλετε να ορίσετε μια αρχική θέση χάρτη με βάση μια διεύθυνση. Πρέπει να δώσετε μια έγκυρη διεύθυνση ή τουλάχιστον ένα μέρος αυτής, ταχυδρομικό κώδικα, περιοχή κ.λπ."
+msgstr "(Προαιρετικό) Σε περίπτωση που θέλετε να ορίσετε μια αρχική θέση χάρτη με βάση μια διεύθυνση. Πρέπει να δώσετε μια έγκυρη διεύθυνση ή τουλάχιστον ένα μέρος αυτής, ταχυδρομικό κώδικα, περιοχή κ.λπ."
+
+msgctxt "SettingsTooltips::slx_clever_point::defaultCoordinates"
+msgid "(Προαιρετικό) Σε περίπτωση που θέλετε να ορίσετε μια αρχική θέση χάρτη με βάση τις συντεταγμένες του χάρτη."
+msgstr "(Προαιρετικό) Σε περίπτωση που θέλετε να ορίσετε μια αρχική θέση χάρτη με βάση τις συντεταγμένες του χάρτη."
+
+msgctxt "SettingsTooltips::slx_clever_point::defaultCleverPoint"
+msgid "(Προαιρετικά) Σε περίπτωση που θέλετε να ορίσετε μια αρχική θέση χάρτη με βάση ένα Cleverpoint (πρέπει να δώσετε το αναγνωριστικό σταθμού με τη μορφή UUID)."
+msgstr "(Προαιρετικά) Σε περίπτωση που θέλετε να ορίσετε μια αρχική θέση χάρτη με βάση ένα Cleverpoint (πρέπει να δώσετε το αναγνωριστικό σταθμού με τη μορφή UUID)."
+
+msgctxt "SettingsOptions::slx_clever_point::cu_firstname"
+msgid "Όνομα"
+msgstr "Όνομα"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_firstname"
+msgid "cu_firstname"
+msgstr "Αντιστοίχιση πεδίου Ονόματος"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_lastname"
+msgid "cu_lastname"
+msgstr "Επίθετο"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_lastname"
+msgid "cu_lastname"
+msgstr "Αντιστοίχιση πεδίου Επιθέτου"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_address1"
+msgid "cu_address1"
+msgstr "Διεύθυνση"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_address1"
+msgid "cu_address1"
+msgstr "Αντιστοίχιση πεδίου Διεύθυνσης"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_address2"
+msgid "Area"
+msgstr "Νομός"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_address2"
+msgid "Area"
+msgstr "Αντιστοίχιση πεδίου Νομού"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_city"
+msgid "city"
+msgstr "Πόλη"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_city"
+msgid "city"
+msgstr "Αντιστοίχιση πεδίου Πόλης"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_zipcode"
+msgid "zipcode"
+msgstr "Ταχυδρομικός κώδικας"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_zipcode"
+msgid "zipcode"
+msgstr "Αντιστοίχιση πεδίου Ταχυδρομικού κώδικα"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_country"
+msgid "country"
+msgstr "Χώρα"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_country"
+msgid "country"
+msgstr "Αντιστοίχιση πεδίου Χώρας"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_tel"
+msgid "tel"
+msgstr "Τηλέφωνο"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_tel"
+msgid "tel"
+msgstr "Αντιστοίχιση πεδίου Τηλεφώνου"
+
+msgctxt "SettingsOptions::slx_clever_point::cu_mobile"
+msgid "mobile"
+msgstr "Κινητό τηλέφωνο"
+
+msgctxt "SettingsTooltips::slx_clever_point::cu_mobile"
+msgid "mobile"
+msgstr "Αντιστοίχιση πεδίου Κινητού τηλεφώνου"
+
+msgctxt "Languages::slx_clever_point.settings_info_cu"
+msgid "slx_clever_point.settings_info_cu"
+msgstr "Αυτά τα πεδία έχουν νόημα, αν έχετε επιλέξει διαχείριση των αποστολών εσωτερικά."
+
+msgctxt "Languages::slx_clever_point.clever_point_cost"
+msgid "slx_clever_point.clever_point_cost"
+msgstr "Κόστος Cleverpoint"
+
+msgctxt "Languages::slx_clever_point.clever_point"
+msgid "slx_clever_point.clever_point"
+msgstr "Επιλεγμένο σημείο παραλαβής"
+
+msgctxt "Languages::slx_clever_point.address"
+msgid "slx_clever_point.address"
+msgstr "Διεύθυνση"
+
+msgctxt "Languages::slx_clever_point.phone"
+msgid "slx_clever_point.phone"
+msgstr "Τηλέφωνα"
+
+msgctxt "Languages::slx_clever_point.work_hours"
+msgid "slx_clever_point.work_hours"
+msgstr "Ωράριο λειτουργίας"
+
+msgctxt "Languages::slx_clever_point.what_is_clever_point_button"
+msgid "slx_clever_point.what_is_clever_point_button"
+msgstr "Τι είναι το Cleverpoint;"
+
+msgctxt "Languages::slx_clever_point.shipment_created_successfully"
+msgid "slx_clever_point.shipment_created_successfully"
+msgstr "H αποστολή δημιουργήθηκε επιτυχώς"
+
+msgctxt "Languages::slx_clever_point.no_voucher_created"
+msgid "slx_clever_point.no_voucher_created"
+msgstr "Δεν δημιουργήθηκε Voucher"
+
+msgctxt "Languages::slx_clever_point.voucher_canceled"
+msgid "slx_clever_point.voucher_canceled"
+msgstr "Το Voucher ακυρώθηκε"
+
+msgctxt "Languages::slx_clever_point.create_awb"
+msgid "slx_clever_point.create_awb"
+msgstr "Δημιουργία"
+
+msgctxt "Languages::slx_clever_point.parameters"
+msgid "slx_clever_point.parameters"
+msgstr "Παράμετροι"
+
+msgctxt "Languages::slx_clever_point.num_of_parcels"
+msgid "slx_clever_point.num_of_parcels"
+msgstr "Αριθμός δεμάτων"
+
+msgctxt "Languages::slx_clever_point.package_weight"
+msgid "slx_clever_point.package_weight"
+msgstr "Βάρος συσκευασίας"
+
+msgctxt "Languages::slx_clever_point.cod_amount"
+msgid "slx_clever_point.cod_amount"
+msgstr "Ποσό Αντικαταβολής"
+
+msgctxt "Languages::slx_clever_point.courier_voucher"
+msgid "slx_clever_point.courier_voucher"
+msgstr "Courier Voucher"
+
+msgctxt "Languages::slx_clever_point.courier"
+msgid "slx_clever_point.courier"
+msgstr "Courier"
+
+msgctxt "Languages::slx_clever_point.awb_no"
+msgid "slx_clever_point.awb_no"
+msgstr "Voucher"
+
+msgctxt "Languages::slx_clever_point.created_at"
+msgid "slx_clever_point.created_at"
+msgstr "Δημιουργήθηκε"
+
+msgctxt "Languages::slx_clever_point.shipments"
+msgid "slx_clever_point.shipments"
+msgstr "Αποστολές"
+
+msgctxt "Languages::slx_clever_point.cancel"
+msgid "slx_clever_point.cancel"
+msgstr "Ακύρωση"
+
+msgctxt "Languages::slx_clever_point.get_voucher"
+msgid "slx_clever_point.get_voucher"
+msgstr "Λήψη Voucher"
+
+msgctxt "Languages::slx_clever_point.current_status"
+msgid "slx_clever_point.current_status"
+msgstr "Τρέχουσα κατάσταση"
+
+msgctxt "Languages::slx_clever_point.destination"
+msgid "slx_clever_point.destination"
+msgstr "Προορισμός"
+
+msgctxt "Languages::slx_clever_point.origin"
+msgid "slx_clever_point.origin"
+msgstr "Προέλευση"
+
+msgctxt "Languages::slx_clever_point.tracking_order"
+msgid "slx_clever_point.tracking_order"
+msgstr "Παρακολούθηση παραγγελίας"
+
+msgctxt "Languages::slx_clever_point.no_tracking_information"
+msgid "slx_clever_point.no_tracking_information"
+msgstr "Δεν υπάρχουν πληροφορίες παρακολούθησης"
+
+msgctxt "Languages::slx_clever_point.data_by_clever_point"
+msgid "slx_clever_point.data_by_clever_point"
+msgstr "Στοιχεία που παρέχονται από την CleverPoint"
+
+msgctxt "Languages::slx_clever_point.track"
+msgid "slx_clever_point.track"
+msgstr "Εντοπισμός"
+
+msgctxt "Languages::slx_clever_point.get_manifest"
+msgid "slx_clever_point.get_manifest"
+msgstr "Clever Point Λίστα ημέρας"
+
+msgctxt "Languages::slx_clever_point.accept_cod"
+msgid "slx_clever_point.accept_cod"
+msgstr "Εξυπηρετεί αντικαταβολές"
+
+msgctxt "Languages::slx_clever_point.point_does_not_accept_cod"
+msgid "slx_clever_point.point_does_not_accept_cod"
+msgstr "Το επιλεγμένο σημείο δεν δέχεται Αντικαταβολή, εάν θέλετε Αντικαταβολή επιλέξτε κάποιο άλλο σημείο"
+
+msgctxt "Languages::slx_clever_point.select_cleverpoint"
+msgid "slx_clever_point.select_cleverpoint"
+msgstr "Επιλέξτε σημείο Cleverpoint στον χάρτη"
