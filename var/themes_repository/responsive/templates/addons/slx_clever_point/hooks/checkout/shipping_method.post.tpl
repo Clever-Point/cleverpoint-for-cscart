@@ -49,14 +49,17 @@
         {include file="addons/slx_clever_point/components/what_is.tpl"}
     </div>
 
-    <script type="text/javascript" src="https://test.cleverpoint.gr/portal/content/clevermap_v2/script/cleverpoint-map.js"></script>
+    
+{/if}
     <script type="text/javascript">
         (function (_, $) {
             $.ceEvent('on', 'ce.commoninit', function (context) {
                 if($('#clevermap',context).length==0) {
+                	console.log("no map in page");
                     return;
                 }
                 if($('#clevermap').data('initialized')==1) {
+                	console.log("clevermap initialized already");
                     return;
                 }
                 $('#clevermap').data('initialized', 1);
@@ -122,4 +125,4 @@
             });
         }(Tygh, Tygh.$));
     </script>
-{/if}
+

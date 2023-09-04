@@ -3,7 +3,7 @@
     <id>slx_clever_point</id>
 	<name>Cleverpoint</name>
 	<description>Cleverpoint pick up points</description>    
-    <version>23.05.20</version>
+    <version>23.06.03</version>
     <priority>1200</priority>
     <position>0</position>
     <status>active</status>
